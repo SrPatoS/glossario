@@ -6,6 +6,14 @@ const routes: Routes = [
   {
     path: "glossario",
     component: DashboardPageComponent
+  },
+  {
+    path: "guia",
+    component: DashboardPageComponent
+  },
+  {
+    path: "agradecimentos",
+    component: DashboardPageComponent
   }
 ];
 

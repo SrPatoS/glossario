@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'grossario';
+
+  isExpanded = false;
+
+  toggleSidenav(expanded: boolean): void {
+    this.isExpanded = expanded;
+  }
 }

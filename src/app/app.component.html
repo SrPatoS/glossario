@@ -1,19 +1,24 @@
-<mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #sidenav mode="side" opened class="mt-40">
-    <mat-nav-list>
-      <a mat-list-item routerLink="/glossario" routerLinkActive="active">Termos</a>
-      <a mat-list-item routerLink="/guia" routerLinkActive="active">Guia</a>
-      <a mat-list-item routerLink="/agradecimentos" routerLinkActive="active">Agradecimentos</a>
-    </mat-nav-list>
-  </mat-sidenav>
-
-  <mat-sidenav-content>
-    <mat-toolbar>
-      <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon>menu</mat-icon>
-      </button>
-      <span class="font-medium text-lg">Glossário Interativo</span>
-    </mat-toolbar>
-    <router-outlet></router-outlet> <!-- Rotas renderizadas aqui -->
-  </mat-sidenav-content>
-</mat-sidenav-container>
+<mat-sidenav
+  mode="side"
+  class="sidenav"
+  [ngClass]="{ 'expanded': isExpanded }"
+  [opened]="true"
+>
+  <mat-nav-list class="mat-nav-list"
+                (mouseenter)="toggleSidenav(true)"
+                (mouseleave)="toggleSidenav(false)"
+  >
+    <h1 class="mt-5">Glossário</h1>
+    <div class="mt-5">
+      <a mat-list-item routerLink="/glossario" routerLinkActive="active">
+        <span class="menu-text mb-10">Termos</span>
+      </a>
+      <a mat-list-item routerLink="/guia" routerLinkActive="active">
+        <span class="menu-text">Guia</span>
+      </a>
+      <a mat-list-item routerLink="/agradecimentos" routerLinkActive="active">
+        <span class="menu-text">Agradecimentos</span>
+      </a>
+    </div>
+  </mat-nav-list>
+</mat-sidenav>
