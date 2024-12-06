@@ -1,24 +1,33 @@
-<mat-sidenav
-  mode="side"
-  class="sidenav"
-  [ngClass]="{ 'expanded': isExpanded }"
-  [opened]="true"
->
-  <mat-nav-list class="mat-nav-list"
-                (mouseenter)="toggleSidenav(true)"
-                (mouseleave)="toggleSidenav(false)"
+<mat-sidenav-container class="sidenav-container">
+  <!-- Menu lateral -->
+  <mat-sidenav
+    mode="side"
+    class="sidenav"
+    [ngClass]="{ 'expanded': isExpanded }"
+    [opened]="true"
   >
-    <h1 class="mt-5">Glossário</h1>
-    <div class="mt-5">
-      <a mat-list-item routerLink="/glossario" routerLinkActive="active">
-        <span class="menu-text mb-10">Termos</span>
-      </a>
-      <a mat-list-item routerLink="/guia" routerLinkActive="active">
-        <span class="menu-text">Guia</span>
-      </a>
-      <a mat-list-item routerLink="/agradecimentos" routerLinkActive="active">
-        <span class="menu-text">Agradecimentos</span>
-      </a>
-    </div>
-  </mat-nav-list>
-</mat-sidenav>
+    <mat-nav-list
+      class="mat-nav-list"
+      (mouseenter)="toggleSidenav(true)"
+      (mouseleave)="toggleSidenav(false)"
+    >
+      <h1 class="mt-5">Glossário</h1>
+      <div class="mt-5">
+        <a mat-list-item routerLink="/glossario" routerLinkActive="active">
+          <span class="menu-text">Termos</span>
+        </a>
+        <a mat-list-item routerLink="/guia" routerLinkActive="active">
+          <span class="menu-text">Guia</span>
+        </a>
+        <a mat-list-item routerLink="/agradecimentos" routerLinkActive="active">
+          <span class="menu-text">Agradecimentos</span>
+        </a>
+      </div>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <!-- Conteúdo principal -->
+  <mat-sidenav-content>
+    <router-outlet></router-outlet> <!-- Este componente renderiza as rotas -->
+  </mat-sidenav-content>
+</mat-sidenav-container>

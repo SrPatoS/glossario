@@ -1,9 +1,12 @@
+.sidenav-container {
+  height: 100vh;
+}
+
 .sidenav {
   overflow: hidden;
   white-space: nowrap;
-  width: 80px;
-  color: #ffffff; /* Cor do texto e ícones */
-  max-width: 200px;
+  width: 300px;
+  color: #ffffff;
 }
 
 .mat-nav-list {
@@ -23,6 +26,7 @@
   border-radius: 5px;
   width: 95%;
   margin-left: 5px;
+  color: white;
 }
 
 .mat-nav-list a {
@@ -35,4 +39,5 @@
 .menu-text {
   font-size: 13px;
   font-weight: normal;
+  color: white;
 }
