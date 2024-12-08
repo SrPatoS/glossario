@@ -1,5 +1,4 @@
 <mat-sidenav-container class="sidenav-container">
-  <!-- Menu lateral -->
   <mat-sidenav
     mode="side"
     class="sidenav"
@@ -8,26 +7,29 @@
   >
     <mat-nav-list
       class="mat-nav-list"
-      (mouseenter)="toggleSidenav(true)"
-      (mouseleave)="toggleSidenav(false)"
     >
       <h1 class="mt-5">Glossário</h1>
       <div class="mt-5">
         <a mat-list-item routerLink="/glossario" routerLinkActive="active">
-          <span class="menu-text">Termos</span>
+          <span class="menu-text">Início</span>
+        </a>
+        <a mat-list-item routerLink="/glossario" routerLinkActive="active">
+          <span class="menu-text">Glossário</span>
         </a>
         <a mat-list-item routerLink="/guia" routerLinkActive="active">
-          <span class="menu-text">Guia</span>
+          <span class="menu-text">Guia de uso</span>
         </a>
         <a mat-list-item routerLink="/agradecimentos" routerLinkActive="active">
           <span class="menu-text">Agradecimentos</span>
+        </a>
+        <a mat-list-item routerLink="/agradecimentos" routerLinkActive="active">
+          <span class="menu-text">Créditos</span>
         </a>
       </div>
     </mat-nav-list>
   </mat-sidenav>
 
-  <!-- Conteúdo principal -->
-  <mat-sidenav-content>
-    <router-outlet></router-outlet> <!-- Este componente renderiza as rotas -->
+  <mat-sidenav-content class="mat-sidenav-content">
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

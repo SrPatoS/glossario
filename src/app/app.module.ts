@@ -11,11 +11,19 @@ import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIcon } from '@angular/material/icon';
 import { MatIconButton } from '@angular/material/button';
+import { GlossaryPageComponent } from './pages/glossary-page/glossary-page.component';
+import { GuidePageComponent } from './pages/guide-page/guide-page.component';
+import { CreditsPageComponent } from './pages/credits-page/credits-page.component';
+import { ThanksPageComponent } from './pages/thanks-page/thanks-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardPageComponent
+    DashboardPageComponent,
+    GlossaryPageComponent,
+    GuidePageComponent,
+    CreditsPageComponent,
+    ThanksPageComponent
   ],
   imports: [
     BrowserModule,

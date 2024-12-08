@@ -1,0 +1,15 @@
+.card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  background-color: #e8e8e8;
+  transform: translateY(-1px);
+}
+
+.card-description {
+  font-size: 14px;
+  color: #3f3f3f;
+}

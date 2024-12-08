@@ -1,5 +1,6 @@
 .sidenav-container {
   height: 100vh;
+
 }
 
 .sidenav {
@@ -7,6 +8,7 @@
   white-space: nowrap;
   width: 300px;
   color: #ffffff;
+  background-color: white;
 }
 
 .mat-nav-list {
@@ -40,4 +42,8 @@
   font-size: 13px;
   font-weight: normal;
   color: white;
+}
+
+.mat-sidenav-content {
+  background-color: white;
 }
