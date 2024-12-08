@@ -9,212 +9,212 @@
 export const fakeData: IGlossaryData[] = [
   {
     id: 1,
-    title: "MEI",
-    description: "Microempreendedor Individual, uma categoria empresarial simplificada no Brasil.",
-    reference: "mei",
-    applicability: "Ideal para desenvolvedores autônomos ou freelancers formalizarem seus serviços em TI."
+    title: "Anuidade ordinária",
+    description: "Série de fluxos de caixa constantes ocorrendo ao final de períodos fixos.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Pode ser utilizada para modelar pagamentos periódicos, como assinaturas de software com renovação automática."
   },
   {
     id: 2,
-    title: "CNPJ",
-    description: "Cadastro Nacional da Pessoa Jurídica, utilizado para identificar empresas no Brasil.",
-    reference: "cnpj",
-    applicability: "Requisito para empresas de TI registrarem suas operações oficialmente."
+    title: "Anuidade vencida",
+    description: "Série de pagamentos em que os fluxos de caixa ocorrem no início de cada período.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Usada para calcular adiantamentos, como pagamentos iniciais de serviços de computação em nuvem."
   },
   {
     id: 3,
-    title: "Capital de Giro",
-    description: "Recursos financeiros necessários para manter a operação de uma empresa.",
-    reference: "capital-de-giro",
-    applicability: "Crucial para startups de tecnologia manterem suas operações enquanto desenvolvem soluções."
+    title: "Perpetuidade",
+    description: "Série de fluxos de caixa iguais que ocorrem indefinidamente.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Modelo financeiro para avaliar assinaturas vitalícias de software ou serviços."
   },
   {
     id: 4,
-    title: "Lucro Bruto",
-    description: "Receita total menos os custos diretos de produção.",
-    reference: "lucro-bruto",
-    applicability: "Usado para medir a rentabilidade de projetos como desenvolvimento de software personalizado."
+    title: "Série mista",
+    description: "Combinação de diferentes séries de fluxos de caixa.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Representa custos mistos de um projeto híbrido de software."
   },
   {
     id: 5,
-    title: "Lucro Líquido",
-    description: "O lucro da empresa após deduzir todas as despesas, impostos e custos operacionais.",
-    reference: "lucro-liquido",
-    applicability: "Importante para avaliar o sucesso financeiro de empresas de TI após investimentos."
+    title: "Composição de juros",
+    description: "Processo de acumular juros sobre o principal e sobre os juros já acumulados.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Utilizado em algoritmos de otimização financeira para bancos de dados."
   },
   {
     id: 6,
-    title: "Passivo",
-    description: "Obrigações financeiras ou dívidas de uma empresa.",
-    reference: "passivo",
-    applicability: "Ajuda a controlar empréstimos usados para investimentos em infraestrutura de TI."
+    title: "Taxa de juros nominal",
+    description: "Taxa de juros declarada que não considera os efeitos de composição em períodos menores.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Definição de custos fixos em contratos de serviços de TI."
   },
   {
     id: 7,
-    title: "Ativo",
-    description: "Recursos ou bens que uma empresa possui e que têm valor econômico.",
-    reference: "ativo",
-    applicability: "Inclui equipamentos de TI, servidores, licenças de software e patentes tecnológicas."
+    title: "Taxa de juros efetiva",
+    description: "Taxa de juros que considera a composição em períodos menores do que o anual.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Cálculos de escalabilidade de custos em computação em nuvem."
   },
   {
     id: 8,
-    title: "Depreciação",
-    description: "Redução no valor de um ativo ao longo do tempo devido ao uso ou obsolescência.",
-    reference: "depreciacao",
-    applicability: "Afeta servidores, computadores e outros equipamentos usados em operações de TI."
+    title: "Valor presente (VP)",
+    description: "Quantia atual equivalente a um fluxo de caixa futuro descontado por uma taxa de juros.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Avaliação de projetos futuros em ambientes de TI."
   },
   {
     id: 9,
-    title: "Receita Operacional",
-    description: "Rendimentos gerados pelas atividades principais de uma empresa.",
-    reference: "receita-operacional",
-    applicability: "Refere-se aos ganhos obtidos com desenvolvimento de software ou venda de serviços de TI."
+    title: "Valor futuro (VF)",
+    description: "Montante acumulado após aplicar juros sobre um investimento ao longo de um ou mais períodos.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Modelagem de crescimento financeiro de uma startup de tecnologia."
   },
   {
     id: 10,
-    title: "EBITDA",
-    description: "Lucros antes de juros, impostos, depreciação e amortização.",
-    reference: "ebitda",
-    applicability: "Ajuda a avaliar a lucratividade operacional de empresas de tecnologia."
+    title: "Fator de valor presente",
+    description: "Multiplicador usado para converter fluxos de caixa futuros em valores presentes.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Determinar investimentos em atualizações tecnológicas."
   },
   {
     id: 11,
-    title: "Margem de Lucro",
-    description: "Percentual de lucro obtido em relação às receitas totais.",
-    reference: "margem-de-lucro",
-    applicability: "Útil para precificar serviços de TI de forma competitiva e sustentável."
+    title: "Fator de valor futuro",
+    description: "Multiplicador usado para calcular o valor futuro de um montante investido hoje.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Projeções financeiras em contratos de longo prazo em TI."
   },
   {
     id: 12,
-    title: "Fluxo de Caixa",
-    description: "Registro de entradas e saídas de dinheiro em um determinado período.",
-    reference: "fluxo-de-caixa",
-    applicability: "Essencial para planejar investimentos em infraestrutura de TI e novos projetos."
+    title: "Amortização de empréstimos",
+    description: "Processo de pagamento de um empréstimo por meio de reduções no principal.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Modelar reembolsos em financiamentos de startups de tecnologia."
   },
   {
     id: 13,
-    title: "Balanço Patrimonial",
-    description: "Demonstrativo contábil que apresenta os ativos, passivos e patrimônio líquido de uma empresa.",
-    reference: "balanco-patrimonial",
-    applicability: "Inclui ativos como licenças de software e equipamentos tecnológicos."
+    title: "Planilha de amortização",
+    description: "Documento que detalha pagamentos periódicos de um empréstimo.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Usada em sistemas de ERP para controlar financiamentos."
   },
   {
     id: 14,
-    title: "ROI",
-    description: "Retorno sobre Investimento, indicador que mede a eficiência de um investimento.",
-    reference: "roi",
-    applicability: "Usado para avaliar o retorno de investimentos em tecnologias ou sistemas."
+    title: "Lucros por ação (LPA)",
+    description: "Indica o lucro disponível para cada ação ordinária de uma empresa.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Avaliação do retorno de investimentos em empresas de tecnologia."
   },
   {
     id: 15,
-    title: "Patrimônio Líquido",
-    description: "Diferença entre os ativos e os passivos de uma empresa.",
-    reference: "patrimonio-liquido",
-    applicability: "Indica a capacidade de uma empresa de TI em investir em novos projetos."
+    title: "Custos de agency",
+    description: "Custos associados a conflitos de interesse entre acionistas e administradores.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Modelar eficiência em contratos de outsourcing de TI."
   },
   {
     id: 16,
-    title: "Provisão",
-    description: "Montante reservado para cobrir despesas futuras conhecidas ou estimadas.",
-    reference: "provisao",
-    applicability: "Importante para planejamento de manutenção de equipamentos e sistemas em TI."
+    title: "Governança corporativa",
+    description: "Conjunto de práticas e políticas que regulam a relação entre partes interessadas.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Desenvolver políticas para equipes distribuídas em computação."
   },
   {
     id: 17,
-    title: "Despesa Operacional",
-    description: "Gastos relacionados à manutenção das operações de uma empresa.",
-    reference: "despesa-operacional",
-    applicability: "Inclui custos como energia elétrica para data centers e salários de desenvolvedores."
+    title: "Mercado primário",
+    description: "Segmento onde novos títulos são emitidos e vendidos diretamente.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Financiar novos produtos tecnológicos em IPOs."
   },
   {
     id: 18,
-    title: "Margem EBITDA",
-    description: "Percentual do EBITDA em relação à receita total da empresa.",
-    reference: "margem-ebitda",
-    applicability: "Mede a eficiência operacional em empresas que oferecem SaaS ou outros serviços."
+    title: "Mercado secundário",
+    description: "Ambiente onde investidores negociam títulos já emitidos.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Plataformas para negociação de ativos digitais."
   },
   {
     id: 19,
-    title: "Capex",
-    description: "Despesas de capital realizadas para adquirir ou melhorar ativos fixos.",
-    reference: "capex",
-    applicability: "Inclui compras de servidores, equipamentos de rede e licenças de software."
+    title: "Mercado de capitais",
+    description: "Facilita a emissão e a negociação de títulos de longo prazo.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Investimento em infraestrutura de computação em nuvem."
   },
   {
     id: 20,
-    title: "Opex",
-    description: "Despesas operacionais necessárias para manter a empresa em funcionamento.",
-    reference: "opex",
-    applicability: "Inclui custos de assinatura de softwares na nuvem e serviços de hospedagem."
+    title: "Ações ordinárias",
+    description: "Títulos que representam a propriedade de uma empresa.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Desenvolver aplicativos para gestão de ações."
   },
   {
     id: 21,
-    title: "Break-even",
-    description: "Ponto de equilíbrio financeiro, onde receitas igualam-se às despesas.",
-    reference: "break-even",
-    applicability: "Importante para startups de TI planejarem quando começarão a ter lucros."
+    title: "Ações preferenciais",
+    description: "Ações que dão prioridade no recebimento de dividendos.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Análise de portfólios com foco em dividendos estáveis."
   },
   {
     id: 22,
-    title: "Cash Flow",
-    description: "Fluxo de caixa gerado por atividades operacionais, de investimento ou financiamento.",
-    reference: "cash-flow",
-    applicability: "Usado para planejar aquisições de novos softwares e infraestrutura de TI."
+    title: "Ganhos de capital",
+    description: "Lucro obtido na venda de um ativo por um preço superior ao de aquisição.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Gerenciamento de ganhos em transações de criptoativos."
   },
   {
     id: 23,
-    title: "Taxa de Retorno",
-    description: "Percentual de ganho ou perda sobre um investimento.",
-    reference: "taxa-de-retorno",
-    applicability: "Avalia projetos de TI, como o desenvolvimento de aplicativos ou sistemas."
+    title: "Preço ofertado",
+    description: "Valor máximo que um comprador está disposto a pagar.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Desenvolvimento de bots para leilões online."
   },
   {
     id: 24,
-    title: "Amortização",
-    description: "Processo de redução gradual de uma dívida ou depreciação de um ativo.",
-    reference: "amortizacao",
-    applicability: "Afeta financiamentos usados para a compra de servidores ou licenças."
+    title: "Preço demandado",
+    description: "Valor mínimo que um vendedor está disposto a aceitar.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Plataformas de e-commerce para negociação direta."
   },
   {
     id: 25,
-    title: "Endividamento",
-    description: "Relação entre o montante de dívidas e o patrimônio de uma empresa.",
-    reference: "endividamento",
-    applicability: "Controla empréstimos para expansão de operações em empresas de TI."
+    title: "Oferta pública",
+    description: "Emissão de títulos no mercado primário acessível a um grande número de investidores.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Usada para financiar grandes projetos de tecnologia, como o desenvolvimento de plataformas SaaS."
   },
   {
     id: 26,
-    title: "Juros Compostos",
-    description: "Juros calculados sobre o principal e também sobre os juros acumulados.",
-    reference: "juros-compostos",
-    applicability: "Usado para calcular retornos de investimentos em tecnologia."
+    title: "Colocação privada",
+    description: "Venda direta de títulos ou ações a um grupo limitado de investidores.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Utilizada para captar investimentos para startups de tecnologia sem abrir capital ao público."
   },
   {
     id: 27,
-    title: "Taxa Selic",
-    description: "Taxa básica de juros da economia brasileira.",
-    reference: "taxa-selic",
-    applicability: "Afeta financiamentos usados por empresas de tecnologia no Brasil."
+    title: "Resultado ordinário",
+    description: "Lucro operacional de uma empresa antes de receitas e despesas não recorrentes.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Auxilia no cálculo da lucratividade de sistemas de ERP personalizados para empresas."
   },
   {
     id: 28,
-    title: "DRE",
-    description: "Demonstrativo de Resultado do Exercício, mostra o desempenho financeiro de uma empresa.",
-    reference: "dre",
-    applicability: "Reflete lucros e despesas em operações como desenvolvimento de software."
+    title: "Teoria de maximização de lucros",
+    description: "Ideia de que o objetivo principal de uma empresa é maximizar o lucro para seus acionistas.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Modelar algoritmos de recomendação para otimizar vendas em e-commerce."
   },
   {
     id: 29,
-    title: "Receita Líquida",
-    description: "Receita total após deduzir impostos, devoluções e descontos.",
-    reference: "receita-liquida",
-    applicability: "Usada para medir o sucesso de vendas de produtos e serviços em TI."
+    title: "Análise custo-benefício",
+    description: "Avaliação sistemática dos custos e benefícios de uma decisão ou projeto.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Ferramenta para análise de viabilidade em projetos de implementação de TI."
   },
   {
     id: 30,
-    title: "PECLD",
-    description: "Provisão para créditos de liquidação duvidosa, referente a dívidas não pagas.",
-    reference: "pecld",
-    applicability: "Ajuda a mitigar riscos em contratos de longo prazo na área de TI."
+    title: "Instrumentos de dívida de curto prazo",
+    description: "Títulos emitidos com prazo de vencimento menor que um ano, como notas promissórias.",
+    reference: "Fundamentos de Administração Financeira, Ross et al., 9ª Edição, 2013.",
+    applicability: "Gestão de caixa para financiar aquisições de equipamentos computacionais."
   }
 ];
