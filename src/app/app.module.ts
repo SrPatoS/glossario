@@ -15,6 +15,7 @@ import { GlossaryPageComponent } from './pages/glossary-page/glossary-page.compo
 import { GuidePageComponent } from './pages/guide-page/guide-page.component';
 import { CreditsPageComponent } from './pages/credits-page/credits-page.component';
 import { ThanksPageComponent } from './pages/thanks-page/thanks-page.component';
+import { GlossaryDetailPageComponent } from './pages/glossary-detail-page/glossary-detail-page.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ThanksPageComponent } from './pages/thanks-page/thanks-page.component';
     GlossaryPageComponent,
     GuidePageComponent,
     CreditsPageComponent,
-    ThanksPageComponent
+    ThanksPageComponent,
+    GlossaryDetailPageComponent
   ],
   imports: [
     BrowserModule,

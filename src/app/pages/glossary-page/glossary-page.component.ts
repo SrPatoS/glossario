@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { fakeData } from './fake-data';
+import { fakeData, IGlossaryData } from './fake-data';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-glossary-page',
@@ -10,4 +11,12 @@ import { fakeData } from './fake-data';
 })
 export class GlossaryPageComponent {
   data = fakeData;
+
+  constructor(private router: Router) {
+  }
+
+
+  openModal(item: IGlossaryData) {
+    this.router.navigate(['/glossario/detalhe', item.id]);
+  }
 }
