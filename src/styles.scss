@@ -6,6 +6,20 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+input {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  height: 40px;
+  padding: 10px;
+  border: none;
+}
+
+input:hover {
+  background-color: #e8e8e8;
+  transform: translateY(-1px);
+}
+
 html, body { height: 100%; }
 
 .page {

@@ -2,8 +2,13 @@
   <div>
     <h1 class="page-title">Glossário</h1>
   </div>
+  <input
+    class="ml-1 mb-2"
+    [placeholder]="'Pesquisar'"
+    (change)="search($event)"
+  >
   <div class="flex flex-row flex-wrap gap-2">
-    <div (click)="openModal(item)" *ngFor="let item of data" class="card w-72 h-32 cursor-pointer p-2">
+    <div (click)="openModal(item)" *ngFor="let item of dataSearch" class="card w-72 h-32 cursor-pointer p-2">
       <p class="font-bold">
         {{ item.title }}
       </p>
