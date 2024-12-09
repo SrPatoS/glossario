@@ -82,21 +82,21 @@ export const fakeData: IGlossaryData[] = [
     title: "Fator de valor futuro",
     description: "Multiplicador usado para calcular o valor futuro de um montante investido hoje.",
     reference: "JORDAN, Ross. FUNDAMENTOS DA ADMINISTRAÇÃO FINANCEIRA. 9. ed. New York: AMGH EDITORA LTDA, 2013. 806 p. v. 1. ISBN 0073382396 / 9780073382395.",
-    applicability: "Projeções financeiras em contratos de longo prazo em TI."
+    applicability: "Pode ser utilizado em projeções financeiras em contratos de longo prazo em TI."
   },
   {
     id: 12,
     title: "Amortização de empréstimos",
     description: "Processo de pagamento de um empréstimo por meio de reduções no principal.",
     reference: "JORDAN, Ross. FUNDAMENTOS DA ADMINISTRAÇÃO FINANCEIRA. 9. ed. New York: AMGH EDITORA LTDA, 2013. 806 p. v. 1. ISBN 0073382396 / 9780073382395.",
-    applicability: "Modelar reembolsos em financiamentos de startups de tecnologia."
+    applicability: "Pode ser utilzado para modelar reembolsos em financiamentos de startups de tecnologia."
   },
   {
     id: 13,
     title: "Planilha de amortização",
     description: "Documento que detalha pagamentos periódicos de um empréstimo.",
     reference: "JORDAN, Ross. FUNDAMENTOS DA ADMINISTRAÇÃO FINANCEIRA. 9. ed. New York: AMGH EDITORA LTDA, 2013. 806 p. v. 1. ISBN 0073382396 / 9780073382395.",
-    applicability: "Usada em sistemas de ERP para controlar financiamentos."
+    applicability: "Pode ser usada em em sistemas de ERP para controlar financiamentos."
   },
   {
     id: 14,
@@ -110,14 +110,14 @@ export const fakeData: IGlossaryData[] = [
     title: "Custos de agency",
     description: "Custos associados a conflitos de interesse entre acionistas e administradores.",
     reference: "JORDAN, Ross. FUNDAMENTOS DA ADMINISTRAÇÃO FINANCEIRA. 9. ed. New York: AMGH EDITORA LTDA, 2013. 806 p. v. 1. ISBN 0073382396 / 9780073382395.",
-    applicability: "Modelar eficiência em contratos de outsourcing de TI."
+    applicability: ""
   },
   {
     id: 16,
     title: "Governança corporativa",
     description: "Conjunto de práticas e políticas que regulam a relação entre partes interessadas.",
     reference: "JORDAN, Ross. FUNDAMENTOS DA ADMINISTRAÇÃO FINANCEIRA. 9. ed. New York: AMGH EDITORA LTDA, 2013. 806 p. v. 1. ISBN 0073382396 / 9780073382395.",
-    applicability: "Desenvolver políticas para equipes distribuídas em computação."
+    applicability: ""
   },
   {
     id: 17,
